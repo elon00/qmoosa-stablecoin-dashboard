@@ -1,0 +1,27 @@
+{
+  "name": "@qmoosa/stablecoin-dashboard",
+  "version": "1.0.0",
+  "description": "QMOOSA Stablecoin Dashboard — Web4 CDP Terminal, Peg Stability Gauges & Telemetry Store",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test tests/dashboard.test.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "qmoosa",
+    "stablecoin",
+    "dashboard",
+    "cdp",
+    "web4",
+    "telemetry"
+  ],
+  "author": "elon00",
+  "license": "MIT"
+}
